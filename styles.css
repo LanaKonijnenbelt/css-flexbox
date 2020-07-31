@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: teal;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 36pt;
+    width: 80%;
+    margin: 50px;
+}
+.turquoise-border {
+    border-color: turquoise;
+    border-radius: 20pt;
+    border-style: solid;
+    padding: 40pt 20pt 40pt 20pt;
+    margin: 20pt;
+}
+.teal-border {
+    border-color: teal;
+    border-radius: 20pt;
+    border-style: solid;
+    padding: 20pt 10pt 20pt 10pt;
+    margin: 20pt;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-style: normal;
+}
+nav {
+    font-weight: bolder;
+}
+.captiontext {
+    width: 160pt;
+    font-size: 14pt;
+    line-height: 21pt;
+    font-style: italic;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+   float: left;
+}
+nav a {
+    display: block;
+    padding: 10pt;
+    color: turquoise;
+}
+
+#image {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.blog > div {
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.blogpost1 {
+    align-self: start;
+}
+
+.blogpost4 {
+    margin-left: auto;
+}
+
+.blogpost5 {
+    flex-grow: 2;
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        color: white;
+        background-color: teal;
+        font-size: 12pt;
+        line-height: 18pt;
+    }
+    h2 {
+        font-size: 18pt;
+        line-height: 27pt;
+    }
+    .teal-border {
+        border-color: white;
+        border-radius: 20pt;
+        border-style: solid;
+        padding: 20pt 10pt 20pt 10pt;
+        margin: 20pt;
+    }
+    .captiontext {
+        font-size: 12pt;
+        line-height: 18pt;
+    }
+}
